@@ -1,0 +1,22 @@
+.getin {
+    background: url(../../Assets/img/get-bg.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding-top: 115px;
+
+    &__title {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.15px;
+        color: $mainColor;
+        padding-bottom: 35px;
+    }
+
+    &__btn {
+        padding: 11px 26px;
+        display: block;
+        margin: 0 auto;
+    }
+}

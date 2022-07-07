@@ -1,0 +1,58 @@
+.story {
+    padding-bottom: 120px;
+
+    &__title {
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 2.3px;
+        color: $mainColor;
+        margin-top: 57px;
+        margin-bottom: 80px;
+
+        hr {
+            border: 2px solid $secondaryColor;
+            border-radius: 3px;
+            width: 50px;
+            margin: 10px auto 0;
+        }
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        &-width {
+            max-width: 405px;
+            margin-right: 15px;
+        }
+        
+        &-title {
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: 0.1875px;
+            color: $mainColor;
+            margin-bottom: 30px;
+
+            span {
+                color: $secondaryColor;
+            }
+        }
+
+        &-text {
+            font-size: 13px;
+            line-height: 23px;
+            letter-spacing: 0.1875px;
+            color: $mainColor;
+            text-align: justify;
+        }
+
+        &-card {
+            max-width: 460px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+    }
+}

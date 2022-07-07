@@ -1,0 +1,71 @@
+.services {
+    
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 75px;
+
+        &-title {
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 2.30625px;
+            color: $mainColor;
+
+            hr {
+                border: 2px solid $secondaryColor;
+                border-radius: 10px;
+                width: 50px;
+                margin: 10px 0 0;
+            }
+        }
+
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-text {
+            max-width: 405px;
+            font-size: 11px;
+            line-height: 19px;
+            letter-spacing: 0.2px;
+            color: $mainColor;
+        }
+
+        &-btn {
+            margin-left: 30px;
+            padding: 11px 29px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    &__card {
+        max-width: 295px;
+        border: 1px solid #e6e6e6;
+        padding: 38px 23px;
+
+        &-icon {
+            margin-bottom: 25px;
+        }
+
+        &-title {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.426667px;
+            color: $mainColor;
+            margin-bottom: 13px;
+        }
+
+        &-text {
+            font-size: 13px;
+            line-height: 23px;
+            letter-spacing: 0.1875px;
+            color: $mainColor;
+        }
+    }
+}

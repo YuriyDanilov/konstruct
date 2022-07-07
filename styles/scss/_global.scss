@@ -1,0 +1,29 @@
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+// Containers
+
+.container {
+    max-width: 1070px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+// Buttons
+
+.btn {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: $secondaryColor;
+
+    &:hover {
+        background-color: #0a7fad;
+        transition: 0.3s all ease;
+    }
+}
